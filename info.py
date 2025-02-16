@@ -17,12 +17,12 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'MaviMon')
 API_ID = int(environ.get('API_ID', '25471015'))
 API_HASH = environ.get('API_HASH', '0ab2955ad5b1a913e220800b5fc5db36')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7829976854:AAHsFEx-wJ9c4dKfAKA5zn_ElnLs364Q0Vw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/504babe67ae701cb458f8.jpg https://telegra.ph/file/504babe67ae701cb458f8.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/504babe67ae701cb458f8.jpg")
+PICS = (environ.get('PICS', 'https://envs.sh/VVW.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/VVW.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
