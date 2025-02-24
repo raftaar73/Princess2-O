@@ -114,7 +114,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
-MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
+MAX_LIST_ELM = environ.get("MAX_LIST_ELM", 5)
 
 # Choose Option Settings 
 LANGUAGES = ["malayalam", "mal", "tamil", "tam" ,"english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
@@ -133,7 +133,7 @@ STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '20'))
-PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
+PING_INTERVAL = int(environ.get("PING_INTERVAL", "20"))  # 20 seconds
 if 'DYNO' in environ:
     ON_HEROKU = True
 else:
