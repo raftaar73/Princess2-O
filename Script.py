@@ -694,7 +694,7 @@ Also your tutorial will be Added Your Group..."""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developers -
 
-[Owner of this bot ]<a href='https://t.me/MODSMAVI'>MaviMods</a>
+[Owner of this bot ]<a href='https://t.me/PRINCESSBOTS'>PRINCESSBOTS</a>
 """
 
     RENAME_TXT = """
