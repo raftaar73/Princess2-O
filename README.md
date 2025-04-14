@@ -5,7 +5,7 @@
   Mavi Movie V3
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Mavi+Movie+V3+Bot!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Princess+Movie+Bot!)
 </p>
 
 ## Main Feature 
